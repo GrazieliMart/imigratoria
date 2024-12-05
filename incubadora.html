@@ -42,7 +42,83 @@
 			
 			margin-top: -5px;
 			width: 100%;
-		}
+		}#nav-new {
+    display: flex
+;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    color: #ffa800;
+    text-transform: uppercase;
+    font-size: 12px;
+    position: fixed;
+    background-color: #FFF;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+#nav-new img {
+    height: 50px; /* Ajuste o tamanho da imagem conforme necessário */
+}
+a:hover {
+    border-bottom-color: transparent;
+    color: #dd9100 !important;
+}
+
+#nav-new .links {
+    display: flex;
+    justify-content: center; /* Centraliza a lista de links */
+    flex-grow: 1; /* Garante que a lista ocupe o espaço disponível */
+}
+
+#nav-new .links li {
+    list-style: none;
+    margin: 0 15px; /* Espaço entre os itens da lista */
+}
+
+#nav-new .links a {
+    text-decoration: none;
+   
+    font-weight: bold;
+}
+#nav-new .links a:hover{
+	color: #f7a70f;
+}
+
+#nav-new .buttons {
+    display: flex;
+    gap: 10px; /* Espaço entre os botões */
+}
+
+#nav-new .buttons button {
+    background-color: #007BFF; /* Cor de fundo do botão */
+    color: #FFF; /* Cor do texto do botão */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#nav-new ul {
+    list-style: disc;
+    margin: 30px 0 30px 0;
+    padding-left: 1rem;
+}
+
+#nav-new .buttons button:hover {
+    background-color: #0056b3; /* Cor ao passar o mouse */
+}
+#nav-new img{
+	margin-bottom: -10px;
+}
+a {
+    -moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border-bottom: navajowhite;
+    text-decoration: none;
+}
 		
 		</style>
 	</head>
@@ -73,6 +149,15 @@
 
 						</ul>
 					</nav>
+				</nav><nav id="nav-new">
+					<ul class="links">
+						<li><a href="comunidade.html">Comunidade</a></li>
+						<li><a href="incubadora.html">Incubadora</a></li>
+						<li><a href="incubadora.html"><img src="images/favicon.png" alt=""></a></li>
+						<li><a href="produtora.html">Produtora</a></li>
+						<li><a href="submit-project.html">Envie Seu Projeto</a></li>
+					</ul>
+				</nav>
 
 				<!-- Main -->
 					<div id="main">
