@@ -62,7 +62,36 @@
 blockquote {
     border-left-color: #000000;
 }
-		
+	#nav-secondary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px; /* Ajuste conforme necessário */
+    background-color: #f7a70f; /* Exemplo de cor */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#nav-secondary .links {
+    display: flex;
+    gap: 15px;
+}
+
+#nav-secondary .icons {
+    display: flex;
+    gap: 10px;
+}
+
+#nav-secondary a {
+    color: #6f2838; /* Cor dos links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav-secondary a:hover {
+    text-decoration: underline;
+}
+	
 		.dynamic-duo img{
 			
 			margin-top: -5px;
@@ -206,40 +235,7 @@ blockquote {
 					</div>
 
 		
-					<footer id="footer" style="background-color: #f7a70f; ">
-						<section>
-							
-							<form method="post" action="#" >
-								<h2 style="color: #6f2838;">Inscreva-se em nossa incubadora</h2>
-								<div class="fields">
-									<div class="field">
-										<label for="name" style="color: #6f2838;">Nome do projeto</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="name" style="color: #6f2838;">Qual sua nacionalidade?</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="name" style="color: #6f2838;">Nome do criador do projeto</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email" style="color: #6f2838;">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message" style="color: #6f2838;">Descreva brevemente seu projeto</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="ENVIAR" /></li>
-								</ul>
-							</form>
-						</section>
-						
-					</footer>
+				
 					
 					<div id="copyright">
 						<ul><li>&copy; IMIGRATORIA 2024 - <a href="">POLÍTICA DE PRIVACIDADE</a></li><li>Design <a href="marketinggdigital.com">GGDIGITAL</a></li></ul>
